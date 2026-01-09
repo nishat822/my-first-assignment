@@ -96,9 +96,9 @@ color: white;
 
 }
 
-.hero-content h2 {
- font-size: 48px;
- font-weight: bold;
+.hero-content h1 {
+ font-size: 80px;
+ font-weight:bolder
  
 }
 .hero-content .text {
