@@ -215,3 +215,51 @@ button:hover{
 
 }
 
+.info-section {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150;
+    background-color: #ffffff;
+    max-width: 1360;
+}
+.info-content{
+    max-width:  700px; 
+    margin-right: 250px;
+}
+.info-pic{
+    max-width: 600px;
+    margin-left: 300px;
+
+}
+.info-content h6{
+    font-size: 16x;
+    padding-bottom: 10px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.info-content h1{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: auto;
+}
+
+.info-box {
+    margin-top: 25px;
+}
+
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.info-item img{
+    width: 16.25px;
+}
+
+.info-item p {
+    margin: 0;
+    font-size: 16px;
