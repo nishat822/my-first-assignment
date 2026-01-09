@@ -16,8 +16,6 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }    
     
 nav{
@@ -25,7 +23,7 @@ nav{
     justify-content: space-between;
     background-color: #ffffff;
     align-items: center;
-    padding: 24px;
+    padding: 10px;
 }
 
 nav ul{
@@ -160,14 +158,16 @@ button:hover{
  border: 2px solid rgb(238, 50, 206);}
 
 
-.about-section {
-    background-color: #f8fbff;
+.about-section {background-color: #fafafe;
+    
 }
 
 
 .about-container {
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
+    
+    
 }
 
 .about-container h2 {
@@ -178,7 +178,7 @@ button:hover{
 .about-container .text {
     max-width: 650px;
     margin: 15px auto 0;
-    color: #6b7280;
+    color: #000000;
 }
 
 .box-item {
@@ -194,10 +194,10 @@ button:hover{
 .box {
     background-color: #ffffff;
     width: 322px;
-    border-radius: 14px;
+    border-radius: 25px 25px 0px 0px;
     padding: 10px;
     text-align: center;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
 }
 
 
@@ -245,7 +245,7 @@ button:hover{
 }
 .info-content{
     max-width:  700px; 
-    margin-right: 250px;
+    margin-right: 200px;
 }
 .info-pic{
     max-width: 600px;
@@ -253,9 +253,9 @@ button:hover{
 
 }
 .info-content h6{
-    font-size: 16x;
+    font-size: 20px;
     padding-bottom: 10px;
-    font-weight: normal;
+    font-weight: 400;;
     line-height: 20px;
 }
 .info-content h1{
@@ -338,15 +338,14 @@ width: 220px;
  height: 44px;
  border-radius: 9px;
  color: rgb(233, 233, 233);
-border: 2px solid rgb(3, 149, 40);
+border: 2px solid rgb(3, 149, 40);}
 
 
 .cta-note {
   margin-top: 18px;
   font-size: 13px;
   color: #9ca3af;
-}   
-
+}
 
 .footer-container {
   background-color: #001a2e;
@@ -355,6 +354,7 @@ border: 2px solid rgb(3, 149, 40);
   font-family: sans-serif;
 }
 
+
 .footer-top {
   display: flex;
   justify-content: space-between;
@@ -362,11 +362,8 @@ border: 2px solid rgb(3, 149, 40);
   padding-bottom: 20px;
 }
 
-
 .footer-logo img {
-  height: 60px; 
-}
-
+  height: 60px; }
 
 .footer-social {
   display: flex;
@@ -379,6 +376,7 @@ border: 2px solid rgb(3, 149, 40);
   font-size: 18px;
   font-weight: normal;
 }
+
 
 .social-icons {
   display: flex;
@@ -398,17 +396,13 @@ border: 2px solid rgb(3, 149, 40);
   font-weight: bold;
   font-size: 14px;
 }
-/* Optional: Add a hover effect */
-.social-icons a:hover {
-  transform: scale(1.5);
-}
 
+/* Divider line */
 .footer-divider {
   border: 0;
   border-top: 1px solid #1a3a5a; 
   margin: 20px 0;
 }
-
 
 .footer-bottom {
   text-align: center;
