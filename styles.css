@@ -4,6 +4,7 @@
     margin:0px;
 
 }
+/* Container */
 .container{
     max-width: 1600px;
     margin: 0px auto;}
@@ -91,6 +92,14 @@ nav ul li a:hover{
     justify-content: center;
     margin-top: 25px;
 }
+.btn1{
+    width: 251px;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+
+
+}
 .btn2{
     background-color:transparent;
     width: 178px;
@@ -124,3 +133,85 @@ button:hover{
     background-color: rgb(72, 96, 158);
     color: white;
     border: 2px solid rgb(238, 50, 206);}
+
+
+
+
+}
+
+/* Section background */
+.about-section {
+    background-color: #f8fbff;
+}
+
+/* Title area */
+.about-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-container h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.about-container .text {
+    max-width: 650px;
+    margin: 15px auto 0;
+    color: #6b7280;
+}
+
+/* Boxes wrapper */
+.box-item {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+   
+}
+
+/* Single box */
+.box {
+    background-color: #ffffff;
+    width: 322px;
+    border-radius: 14px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+/* Icon circle */
+.icon-circle {
+    width: 48px;
+    height: 48px;
+    background-color: #ff5a5f;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 20px;
+}
+
+/* Icon */
+.icon-circle img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Box text */
+.box h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.box .text {
+    font-size: 16px;
+    color: #6b7280;
+    line-height: 1.6;
+
+}
+
