@@ -2,6 +2,7 @@
 * {
     padding: 0px;
     margin:0px;
+    box-sizing: border-box;
 
 }
 /* Container */
@@ -262,4 +263,63 @@ button:hover{
 
 .info-item p {
     margin: 0;
-    font-size: 16px;
+    font-size: 16px;}
+
+/* Section */
+.cta-section {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Box */
+.cta-box {
+  max-width: 1360px;
+  width: 100%;
+  background: #f8f7f4;
+  border-radius: 16px;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Heading */
+.cta-box h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f2a44;
+  margin-bottom: 16px;
+}
+
+/* Main text */
+.cta-text {
+  font-size: 16px;
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+/* Button */
+/*.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #3f8f6b;
+  color: #ffffff;
+  padding: 14px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+} */
+
+.cta-btn:hover {
+  background: #347a5b;
+}
+
+/* Small note */
+.cta-note {
+  margin-top: 18px;
+  font-size: 13px;
+  color: #9ca3af;
+}    
